@@ -1,7 +1,6 @@
 import Image from "next/image"
 import useQuiosco from "@/hooks/useQuiosco"
 import { formatearDinero } from "@/helpers"
-import Modal from 'react-modal'
 
 function Producto({producto}) {
     const {handleSetProducto,handleChangeModal}=useQuiosco()
